@@ -1,0 +1,22 @@
+{
+    "name": "xiaohigh/phpanalysis",
+    "description": "简单封装phpanalysis,方便进行中文分词",
+    "type": "library",
+    "licence": "MIT",
+    "require": {
+    	"php": ">=5.6.5"
+    },
+    "authors": [
+    	{
+    		"name" : "xiaohigh",
+    		"email": "xiaohigh@163.com"
+    	}
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"xiaohigh\\phpanalysis\\": "./src"
+    	},
+    	"files": [
+    	]
+    }
+}
